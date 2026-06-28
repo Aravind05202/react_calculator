@@ -1,0 +1,137 @@
+/* ── Page Background ── */
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0D1B2A;
+  font-family: Arial, sans-serif;
+}
+
+/* ── Card Box ── */
+.box {
+  background-color: #1B2A3B;
+  padding: 32px 36px;
+  border-radius: 14px;
+  box-shadow: 0 4px 24px rgba(0, 180, 216, 0.25);
+  border: 1px solid #00B4D8;
+  width: 320px;
+  text-align: center;
+}
+
+/* ── Title ── */
+.title {
+  color: #00B4D8;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 26px;
+  letter-spacing: 1px;
+}
+
+/* ── Input Row ── */
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+/* ── Label ── */
+.label {
+  color: #90CAE0;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+/* ── Input Field ── */
+.input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #00B4D8;
+  background-color: #0D1B2A;
+  color: #ffffff;
+  font-size: 15px;
+  outline: none;
+  box-sizing: border-box;
+  transition: border 0.2s;
+}
+
+.input:focus {
+  border: 1.5px solid #ffffff;
+}
+
+/* ── Button Row ── */
+.btn-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+/* ── Base Button ── */
+.btn {
+  flex: 1;
+  padding: 10px 4px;
+  border: none;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.1s;
+}
+
+.btn:hover {
+  opacity: 0.85;
+  transform: scale(1.05);
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+/* ── Button Colors ── */
+.btn-add {
+  background-color: #00B4D8;
+  color: #0D1B2A;
+}
+
+.btn-sub {
+  background-color: #F4A261;
+  color: #0D1B2A;
+}
+
+.btn-mul {
+  background-color: #2EC4B6;
+  color: #0D1B2A;
+}
+
+.btn-div {
+  background-color: #E76F51;
+  color: #ffffff;
+}
+
+/* ── Result Box ── */
+.result {
+  margin-top: 22px;
+  background-color: #0D1B2A;
+  border: 1px solid #00B4D8;
+  border-radius: 10px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.result-label {
+  color: #90CAE0;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.result-value {
+  color: #00B4D8;
+  font-size: 22px;
+  font-weight: bold;
+}
